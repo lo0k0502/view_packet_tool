@@ -1,2 +1,5 @@
 # executable files
 *.o
+
+# vscode settings
+.vscode
