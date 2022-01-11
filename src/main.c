@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <pcap.h>
 #include <net/ethernet.h>
 #include <netinet/ip.h>
