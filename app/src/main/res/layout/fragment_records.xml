@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTerminalBackground"
+        android:gravity="bottom"
+        android:maxLines="100"
+        android:scrollbars="vertical"
+        android:text="@string/terminalInit"
+        android:textColor="@color/colorTerminalText"
+        android:textSize="15sp"
+        android:focusable="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:animateLayoutChanges="true"
+        android:layout_gravity="end">
+        <view class="com.example.quardimu.VerticalElement$VerticalButton"
+            android:id="@+id/action_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ap_white"
+            android:text="@string/action_tool"
+            android:backgroundTint="@color/colorPrimaryDarkTrans"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDarkTrans"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:scrollbars="vertical">
+
+            <Button
+                android:id="@+id/ls_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ls_button"
+                android:textColor="@color/colorTerminalText" />
+            <Button
+                android:id="@+id/ls_server_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ls_server_button"
+                android:textColor="@color/colorTerminalText" />
+            <Button
+                android:id="@+id/clear_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear_button"
+                android:textColor="@color/colorTerminalText" />
+            <Button
+                android:id="@+id/push_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/push_button"
+                android:textColor="@color/colorTerminalText" />
+            <Button
+                android:id="@+id/pull_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pull_button"
+                android:textColor="@color/colorTerminalText" />
+
+            <Button
+                android:id="@+id/rm_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rm_button"
+                android:textColor="@color/colorTerminalText" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

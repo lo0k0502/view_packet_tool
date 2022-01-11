@@ -1,0 +1,104 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_IMU_title">
+
+        <EditTextPreference
+            app:key="calZ_LT"
+            app:title="@string/pref_calZ_LT"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="calZ_LC"
+            app:title="@string/pref_calZ_LC"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="calZ_RT"
+            app:title="@string/pref_calZ_RT"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="calZ_RC"
+            app:title="@string/pref_calZ_RC"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="caution_angle"
+            app:title="@string/pref_caution_angle"
+            app:defaultValue="50"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="peak_gap_value"
+            app:title="@string/pref_peak_gap_value"
+            app:defaultValue="30"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/index_entries"
+            app:entryValues="@array/index_numbers"
+            app:key="index_vector"
+            app:title="@string/pref_index_vector"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/pref_title_GPS">
+        <EditTextPreference
+            app:key="gridSize"
+            app:title="@string/pref_grid_size"
+            app:defaultValue="10"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="widthMax"
+            app:title="@string/pref_width_max"
+            app:defaultValue="10"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="angleLowGap"
+            app:title="@string/pref_angle_low_gap"
+            app:defaultValue="30"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="angleHighGap"
+            app:title="@string/pref_angle_high_gap"
+            app:defaultValue="60"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/pref_title_plot">
+        <EditTextPreference
+            app:key="plot_height"
+            app:title="@string/pref_plot_height"
+            app:defaultValue="500"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="grid_num_x"
+            app:title="@string/pref_grid_num_x"
+            app:defaultValue="10"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="grid_num_y"
+            app:title="@string/pref_grid_num_y"
+            app:defaultValue="6"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/title_records">
+
+        <EditTextPreference
+            app:key="url"
+            app:defaultValue="https://140.123.124.219/~villager/quadIMU/"
+            app:title="@string/pref_server_url"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="usr"
+            app:defaultValue="student"
+            app:title="@string/pref_server_usr"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="passwd"
+            app:title="@string/pref_server_passwd"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

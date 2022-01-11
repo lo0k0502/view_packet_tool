@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Manifest -->
+    <string name="app_name">QuadIMU</string>
+    <string name="action_settings">settings</string>
+
+    <!-- DeviceListActivity -->
+    <string name="select_device">Select a device</string>
+    <string name="none_paired">None paired</string>
+    <string name="none_found">None found</string>
+    <string name="scanning">Scanning</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other available devices</string>
+    <string name="button_scan">Scanning for new devices</string>
+
+    <!-- MainActivity -->
+    <string name="left_thigh_on">[L_th]</string>
+    <string name="left_thigh_off">[L_th]</string>
+    <string name="right_thigh_on">[R_th]</string>
+    <string name="right_thigh_off">[R_th]</string>
+    <string name="left_calf_on">[L_ca]</string>
+    <string name="left_calf_off">[L_ca]</string>
+    <string name="right_calf_on">[R_ca]</string>
+    <string name="right_calf_off">[R_ca]</string>
+    <string name="null_value">null</string>
+    <string name="recording_button">recording</string>
+    <string name="channel_name">QuardIMU_channel</string>
+    <string name="channel_description">Recording</string>
+
+    <!-- Fragment Monitor -->
+    <string name="title_monitor">Monitor</string>
+
+    <!-- Fragment GPS -->
+    <string name="zoom_in">zoom_in</string>
+    <string name="zoom_out">zoom_out</string>
+    <string name="location">location</string>
+    <string name="map">Map</string>
+    <string name="map_title">MAP</string>
+    <string name="remove_map">Remove map</string>
+    <string name="activity_center">Activity Center Map</string>
+
+    <!-- Fragment Plot -->
+
+    <!-- Fragment Records -->
+    <string name="title_records">Records</string>
+    <string name="ls_button">ls</string>
+    <string name="rm_button">rm</string>
+    <string name="clear_button">clear</string>
+    <string name="upload_button">push</string>
+    <string name="terminalInit">$> </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_tool">ACTIONS</string>
+    <string name="download_button">pull</string>
+    <string name="filename">file name</string>
+    <string name="ls_server_button">ls_srv</string>
+    <string name="push_button">push</string>
+    <string name="pull_button">pull</string>
+    <string name="rm_alert_message">Delete all local records?</string>
+    <string name="rm_alert_title">Alert!</string>
+
+
+    <!-- Pref IMU -->
+    <string name="pref_IMU_title">IMU</string>
+    <string name="pref_calZ_LT">calZ_LT</string>
+    <string name="pref_calZ_LC">calZ_LC</string>
+    <string name="pref_calZ_RT">calZ_RT</string>
+    <string name="pref_calZ_RC">calZ_RC</string>
+    <string name="pref_index_vector">Index vector</string>
+    <string name="pref_caution_angle">Caution angle</string>
+    <string name="pref_peak_gap_value">Peak gap value</string>
+    <!-- Pref GPS -->
+    <string name="pref_title_GPS">GPS</string>
+    <string name="pref_GPS_range">GPS plot range</string>
+    <string name="pref_title_plot">Plot</string>
+    <string name="pref_grid_size">grid size (m)</string>
+    <string name="pref_width_max">Maximum width (x0.1 km)</string>
+    <string name="pref_angle_low_gap">Lower angle gap</string>
+    <string name="pref_angle_high_gap">Higher angle gap</string>
+    <!-- Pref Plot -->
+    <string name="pref_grid_num_x">X grid number</string>
+    <string name="pref_grid_num_y">Y grid number</string>
+    <string name="pref_plot_height">Plot height</string>
+    <!-- Pref Records -->
+    <string name="pref_server_url">server URL</string>
+    <string name="pref_server_usr">User ID</string>
+    <string name="pref_server_passwd">Password</string>
+
+
+</resources>

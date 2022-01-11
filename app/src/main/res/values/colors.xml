@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#393E46</color>
+    <color name="colorPrimary">#00ADB5</color>
+    <color name="colorPrimaryDark">#393E46</color>
+    <color name="colorPrimaryDarkTrans">#A0393E46</color>
+    <color name="colorAccent">#D81B60</color>.
+    <color name="colorTerminalText">#EEEEEE</color>
+    <color name="colorTerminalBackground">#222831</color>
+    <color name="card_GPS">#c9c9c9</color>
+    <color name="card_GPS_text">#000000</color>
+    <color name="card_LT">#FFFFFF</color>
+    <color name="card_LT_text">#000000</color>
+    <color name="card_LC">#FFFFFF</color>
+    <color name="card_LK_text">#000000</color>
+    <color name="card_LK">#b9f0af</color>
+    <color name="card_LK_warn">#e37676</color>
+    <color name="card_LC_text">#000000</color>
+    <color name="card_RT">#FFFFFF</color>
+    <color name="card_RT_text">#000000</color>
+    <color name="card_RC">#FFFFFF</color>
+    <color name="card_RC_text">#000000</color>
+    <color name="card_RK">#b9f0af</color>
+    <color name="card_RK_warn">#e37676</color>
+    <color name="card_RK_text">#000000</color>
+    <color name="gps_background">#808080</color>
+</resources>

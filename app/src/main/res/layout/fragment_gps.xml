@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/silent_lake_to_positive_road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/silent_lake_to_positive_road" />
+
+    <ImageView
+        android:id="@+id/silent_lake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/silent_lake" />
+
+    <ImageView
+        android:id="@+id/activity_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/activity_center" />
+
+    <ImageView
+        android:id="@+id/bottom_of_positive_road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/bottom_of_positive_road" />
+
+    <ImageView
+        android:id="@+id/literature_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/literature_department" />
+
+    <ImageView
+        android:id="@+id/fountain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/fountain" />
+
+    <ImageView
+        android:id="@+id/administration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/administration" />
+
+    <ImageView
+        android:id="@+id/library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/library" />
+
+    <ImageView
+        android:id="@+id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/education" />
+
+    <ImageView
+        android:id="@+id/common_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/common_education" />
+
+    <ImageView
+        android:id="@+id/law"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/law" />
+
+    <ImageView
+        android:id="@+id/hall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/activity_center"
+        android:src="@drawable/hall" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_my_location_24"
+            android:layout_gravity="start|top"
+            android:alpha="0.7"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/location" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/silent_lake_to_positive_road"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/activity_center"-->
+<!--            android:src="@drawable/silent_lake_to_positive_road" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/activity_center"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/activity_center"-->
+<!--            android:src="@drawable/activity_center" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bottom_of_positive_road"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/activity_center"-->
+<!--            android:src="@drawable/bottom_of_positive_road" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/literature_department"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/activity_center"-->
+<!--            android:src="@drawable/literature_department" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/literature_department"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/activity_center"-->
+<!--            android:src="@drawable/literature_department" />-->
+
+        <ImageView
+            android:id="@+id/colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/activity_center"
+            android:src="@drawable/colors"
+            app:layout_constraintBottom_toBottomOf="@+id/mark"
+            app:layout_constraintStart_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:id="@+id/text_location" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/ic_baseline_zoom_out_24"
+                android:id="@+id/zoom_out_button"
+                android:layout_weight="0.05"
+                android:clickable="true"
+                android:contentDescription="@string/zoom_out"
+                android:focusable="true" />
+            <view class="com.example.quardimu.VerticalElement$VerticalSeekBar"
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:max="9"
+                android:progress="4"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:src="@drawable/ic_baseline_zoom_in_24"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/zoom_in_button"
+                android:clickable="true"
+                android:contentDescription="@string/zoom_in"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.2"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/width_text"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:animateLayoutChanges="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/map_list_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/map_recycle_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scrollbars="vertical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/remove_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/remove_map"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/map"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_map_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/map_list_layout" />
+
+            <ImageView
+                android:id="@+id/draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/activity_center"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_radio_button_checked_24"
+                app:layout_constraintBottom_toTopOf="@+id/map"
+                app:layout_constraintStart_toEndOf="@+id/map_list_layout" />
+
+            <ImageView
+                android:id="@+id/toggleMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/activity_center"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_map_24"
+                app:layout_constraintBottom_toTopOf="@+id/draw"
+                app:layout_constraintStart_toEndOf="@+id/map_list_layout" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>
+
